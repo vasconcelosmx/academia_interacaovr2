@@ -1,0 +1,243 @@
+*{ /* config para a página toda */ 
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Calibri', Arial, Helvetica;
+}
+
+header{
+    width: 100%;
+    position: fixed; /*Comando para fixar */
+    background-color: #e28f2e;
+}
+/*#### MENU ####*/
+
+nav{
+    height: 70px;
+    font-size: 19px;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li{
+    float: left;
+    margin-left: 5px;
+    padding: 5px 10px;
+    color: white;
+    font-weight: bold;
+    line-height: 3.6;
+
+}
+
+nav ul .BOTAO:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.menuimg{
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-right: 20px;
+    margin-bottom: 11px;
+    float: left;
+
+}
+
+/*##### CONTEÚDO #####*/
+
+main{
+    width: 1000px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.banner_img{
+    width: 1000px;
+    height:300px;
+    float: left;
+    margin-top: 75px;
+}
+
+article{
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+
+.fotoshome{
+    width: 50%;
+    float: left;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/*##### RODAPÉ #####*/
+
+footer{
+    background-color: #e28f2e;
+    clear: both;
+    text-align: center;
+    padding-top:45px;
+    padding-bottom: 45px;
+    color: #fff;
+}
+
+/*##### SOBRE #####*/
+
+.fotossobre{
+    width: 20%;
+    height: 160px;
+    float: left;
+
+}
+
+.asobre{
+    width: 80%;
+    margin-top: 20px;
+    height: 160px;
+    float: left;
+  
+}
+
+.fotopeso{
+    width: 20%;
+    height: 160px;
+
+    float: right;
+    text-align: right;
+    clear: both;
+}
+
+.apeso{
+    margin-top: 20px;
+    width: 80%;
+    height: 160px;
+    float: right;
+}
+
+/*##### CONTATO #####*/
+
+#mapa{
+    width: 1000px;
+    height: 300px;
+    padding-top: 78px;
+}
+
+#info{
+    margin-top: 50px;
+    width: 380px;
+    float: left;
+}
+
+#formulario{
+    margin-bottom: 50px;
+    margin-top: 50px;
+    width: 590px;
+    float: right;
+}
+
+#formulario label{
+    font-size: 18px;
+}
+
+#formulario div input{
+    width: 590px;
+    height: 30px;
+    border: 1px solid #f2c085;
+    background-color: #fae5cc;
+    font-size: 15px;
+}
+
+#formulario div textarea{
+    width: 590px;
+    height: 80px;
+    border: 1px solid #f2c085;
+    background-color: #fae5cc;
+    font-size: 15px;
+    resize: none;
+}
+
+#formulario .BOTAO{
+    width: 100px;
+    height: 35px;
+    font-size: 18px;
+    color: white;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    float: right;
+    border-radius: 10px;
+}
+
+#ENVIAR{
+    background-color: #52883f;
+    border: 1px solid #8bac7f;
+}
+
+#LIMPAR{
+    background-color: #c73636;
+    border: 1px solid #b89898;
+    
+}
+
+#formulario h2{
+    font-size: 22px;
+    color: orange;
+    text-align: center;
+    margin: 55px 0;
+    font-weight: bold;
+}
+
+.galeria{
+    text-align: center;
+    margin: 10px;
+}
+
+.galeria img{
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

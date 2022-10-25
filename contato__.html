@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academia Interação</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <header>
+        <div class="menuimg">
+            <img src="imagens/logo1.png" alt="Logotipo da Academia">
+        </div>
+        <nav>
+            <ul>
+                <a href="index.html"><li class="BOTAO">HOME</li></a>
+                <a href="sobre.html"><li class="BOTAO">SOBRE</li></a>
+                <a href="galeria.html"><li class="BOTAO">GALERIA</li></a>
+                <a href="contato.html"><li class="BOTAO">CONTATO</li></a>
+            </ul>
+        </nav>
+    </header>
+
+
+    
+    <main><!--conteúdo principal do site-->
+       <section class="conteudo">
+            <div id="mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3653.574751939843!2d-46.55405698501988!3d-23.691160884618565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce423586355a51%3A0xf1d7e7d2655053b1!2sAv.%20Senador%20Vergueiro%2C%20400%20-%20Rudge%20Ramos%2C%20S%C3%A3o%20Bernardo%20do%20Campo%20-%20SP%2C%2009750-000!5e0!3m2!1spt-BR!2sbr!4v1665496791903!5m2!1spt-BR!2sbr" width="1000" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+            <div id="info">
+                <h1> Como posso ajudar? </h1>
+                <br>
+                <p>Neste canal disponibilizamos para você enviar sugestões, críticas ou dúvidas.</p>
+                <br>
+                <p>Avenida Senador Vergueiro, 400, São Bernardo do Campo - SP</p>
+                <p>(11) 4336-7900</p>
+                <p>contato@interacao.com.br</p>
+            </div>
+
+            <aside id="formulario">
+                <form id="form" method="post" action="envia.php">
+                    <div>
+                        <label for="nome">Nome:</label>
+                        <input type="text" name="nome" id="NOME" placeholder="Escreva seu nome">
+                    </div>
+
+                    <div>
+                        <label for="email">E-mail:</label>
+                        <input type="email" name="email" id="EMAIL" placeholder="email@dominio.com" required>
+                    </div>
+
+                    <div>
+                        <label for="mensagem">Mensagem:</label>
+                        <textarea type="text" name="mensagem" id="MENSAGEM" placeholder="Escreva sua mensagem"></textarea>
+                    </div>
+
+                    <input type="submit" value="enviar" id="ENVIAR" class="BOTAO"><!--Tag do botão enviar-->
+                    <input type="reset" value="limpar" id="LIMPAR" class="BOTAO"><!--Tag do botão limpar-->
+                    
+                </form>
+
+            </aside>
+
+       </section>   
+    </main>
+
+
+
+
+
+    <footer>
+         <p>Segunda à Sexta-feira das 6:00 às 23:30</p>
+         <p>Sábado das 8:00 às 17:00</p>
+         <p>Domingo das 8:00 às 15:00</p>
+          <p>Siga-nos nas Redes Sociais</p>
+          <br>
+          <a href="http://www.facebook.com"><img src="imagens/social-facebook.png" alt="facebook"></a>
+          <a href="http://www.twitter.com"><img src="imagens/social-twitter.png" alt="twitter"></a>
+          <a href="http://www.youtube.com"><img src="imagens/social-youtube.png" alt="youtube"></a>
+          <br>
+          <br>
+          <p>
+            © Academia Interação 2022. Todos os direitos reservados.
+          </p>       
+    </footer>
+</body>
+</html>
